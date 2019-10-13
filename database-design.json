@@ -1,0 +1,77 @@
+{
+    "users": {
+        "uid": "String",
+        "name": "String",
+        "dateofBirth": "TimeStamp",
+        "commumnityId": "String",
+        "workingCommunityId": "String",
+        "address": "String",
+        "userProfileImage": "String/URL",
+        "role": "deliver-agent/user"
+    },
+    "conjestion": {
+        "timeweights": "double",
+        "userEngagement": "double",
+        "bias": "double"
+    },
+    "navigation": [
+        {
+            "fromCommunity": "String/CommunityID",
+            "toCommunity": "String/CommunityID",
+            "countOf": "Integer",
+            "uid": "String",
+            "isCarPooling": "boolean",
+            "startAddress": "String"
+        }
+    ],
+    "ordersRequests": [
+        {
+            "orderId": "String",
+            "phoneNumber": "String",
+            "pickupAddress": "String",
+            "pickupCommuniyId": "String",
+            "dropAddress": "String",
+            "dropCommunityId": "String",
+            "uid": "String",
+            "paymentInfo": "String",
+            "foodIsPrepared": "boolean",
+            "isPickedByDeleiveryBoy": "boolean",
+            "hadStartedDriving": "boolean",
+            "reachedYourCommunity": "boolean",
+            "delivered": "boolean"
+            
+        }
+    ],
+    "deliverySerivce": [
+        {
+            "ordersRequestsId": "String",
+            "uid": "String",
+            "deliveryBoyName": "String",
+	    "deliveryPersonUid": "String",
+            "expectedDeliveryTime": "Timestamp",
+            "dropAddress": "String",
+            "dropCommunityId": "String",
+            "fromAddress": "String",
+            "fromCommunityId": "String",
+            "contactInfo": "String",
+            "paymentInfo": "String",
+            "foodIsPrepared": "boolean",
+            "isPickedByDeleiveryBoy": "boolean",
+            "hadStartedDriving": "boolean",
+            "reachedYourCommunity": "boolean",
+            "delivered": "boolean"
+
+        }
+    ],
+
+    "posts": [
+        {
+            "postId": "String",
+            "time": "Timestamp",
+            "location": "String",
+            "text": "String",
+            "picture": "String/URL",
+            "uid": "String"
+        }
+    ]
+}

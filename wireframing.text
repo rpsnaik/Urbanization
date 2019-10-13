@@ -1,0 +1,41 @@
+InitState - SplashScreen
+
+SplashScreen - if(authenticated){
+    goto Home()
+}else{
+    goto Signup/Login()
+}
+
+Home() - List<Items> items = [
+    1st Lane - Basic info (Air Pollution Index, Weather etc)
+    2nd Lane - List<Categories> categories = [
+        <categories> Conjestion()
+        <categories> Delivery Service()
+        <categories> 
+        <categories> Event registration()
+        <categories> CommunityRanking()
+        <categories> CommunityPoll()
+    ]
+    3rd Lane - Socail media Content
+]
+
+Conjestion(){
+    if(await getDestination()){
+        var des = verifyOptimalWay()
+        if(dess = "self"){
+            DrivetheCarAndPickUp()
+        }else{
+            GothePickup()
+        }
+
+        var route = CalclateOptimalRoute()
+        route.Navigate()
+    }
+}
+
+Logistics(){
+    if(oreder){
+        
+    }
+}
+

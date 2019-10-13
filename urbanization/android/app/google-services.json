@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1085965072387",
+    "firebase_url": "https://urbanization-64127.firebaseio.com",
+    "project_id": "urbanization-64127",
+    "storage_bucket": "urbanization-64127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085965072387:android:876eea3b45a75b28307636",
+        "android_client_info": {
+          "package_name": "com.example.urbanization"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085965072387-c2ncfor99egmpfda2lk3n4v09j8bnq45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-j3ffyQ425HbnWTpEMW4dGLbeGbJrq6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085965072387-c2ncfor99egmpfda2lk3n4v09j8bnq45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
