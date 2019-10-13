@@ -1,6 +1,6 @@
 # Urbanization
 
-Flutter Code at - Urbanization/lib/main.dart
+Flutter Code at - Urbanization/urbanization/lib/main.dart
 
 What it does
 
